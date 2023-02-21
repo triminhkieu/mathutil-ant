@@ -33,7 +33,8 @@ public class MathUtility {
         }
         //song sot den lenh duoi day, sure n = 2..20
         long product = 1; //tich nhan don!!
-        for (int i = 2; i < n; i++) { //make the code wrong
+        for (int i = 2; i <= n; i++) { //make the code wrong
+                                       //make the code green again and 4ever
             product *= i;
         }
         return product;
